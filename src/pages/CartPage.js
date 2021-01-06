@@ -49,7 +49,7 @@ const CartPage = ({ history }) => {
 
   return (
     <div className="container-fluid pt-2">
-      {/* <div className="row">
+      <div className="row">
         <div className="col-md-8">
           <h4>Cart / {cart.length} Product</h4>
 
@@ -61,7 +61,7 @@ const CartPage = ({ history }) => {
             showCartItems()
           )}
         </div>
-        <div className="col-md-4">
+        {/* <div className="col-md-4">
           <h4>Order Summary</h4>
           <hr />
           <p>Products</p>
@@ -95,9 +95,8 @@ const CartPage = ({ history }) => {
               </Link>
             </button>
           )}
-        </div>
-      </div> */}
-      Helllo
+        </div> */}
+      </div>
     </div>
   );
 };
