@@ -53,13 +53,13 @@ const CartPage = ({ history }) => {
         <div className="col-md-8">
           <h4>Cart / {cart.length} Product</h4>
 
-          {!cart.length ? (
+          {/* {!cart.length ? (
             <p>
               No products in cart. <Link to="/shop">Continue Shopping.</Link>
             </p>
           ) : (
             showCartItems()
-          )}
+          )} */}
         </div>
         {/* <div className="col-md-4">
           <h4>Order Summary</h4>
